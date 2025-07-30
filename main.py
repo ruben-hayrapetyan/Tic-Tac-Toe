@@ -25,9 +25,9 @@ TTT = [[None]*3, [None]*3, [None]*3]
 screen = pg.display.set_mode([width, height + 100])
 
 pg.display.set_caption('Tic Tac Toe')
-opening = pg.image.load('/images/X.png')
-X_image = pg.image.load('/images/X.png')
-O_image = pg.image.load('/images/O.png')
+opening = pg.image.load('/Users/rubenhayrapetyan/Downloads/Tic-Tac-Toe/images/Intro_to_ticktacktoe.png')
+X_image = pg.image.load('/Users/rubenhayrapetyan/Downloads/Tic-Tac-Toe/images/X.png')
+O_image = pg.image.load('/Users/rubenhayrapetyan/Downloads/Tic-Tac-Toe/images/O.png')
 
 opening = pg.transform.scale(opening, (width, height + 100))
 X_image = pg.transform.scale(X_image, (80, 80))
